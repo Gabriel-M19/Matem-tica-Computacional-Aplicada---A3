@@ -62,7 +62,7 @@ public class Calcular {
 
         // Processo de eliminação
         while (atual.proximo != atual) {
-            for (int contador = 1; contador < k - 1; contador++) {
+            for (int contador = 1; contador < k - 1; contador++ ) {
                 atual = atual.proximo;
             }
             atual.proximo = atual.proximo.proximo;

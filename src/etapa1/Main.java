@@ -9,7 +9,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Sistema de cálculo do problema de Josephus");
-        System.out.println("Digite 'Sair' para encerrar.\n");
+        System.out.println("Digite 'Sair' para encerrar.\n ");
 
         while (true) {
             try {
